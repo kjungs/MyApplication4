@@ -113,5 +113,7 @@ public class TitlesFragment extends Fragment {
         Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-0000-0000"));
         startActivity(myIntent);
     }
+    public void onBtnClicked(View view){
 
+    }
 }

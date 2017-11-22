@@ -4,8 +4,13 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.b10705.myapplication4.TitlesFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_blue_light">
 
-    <TextView
+      <TextView
         android:id="@+id/Store"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,6 +20,13 @@
         android:text="학생식당"
         android:textSize="40sp"
         />
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="PLUS"
+          android:onClick="onBtnClicked"/>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
